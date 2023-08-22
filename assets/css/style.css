@@ -1,0 +1,158 @@
+/*--------------------------------------------------------------
+# general
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+  font-size: 18px;
+}
+
+a {
+  color: #99db7f;
+  font-weight: bold;
+  padding: 1px;
+}
+
+a:hover {
+  color: #272829;
+  text-decoration: none;
+  background-color: #99db7f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  padding: 5px 0px 5px 0px;
+}
+
+li {
+  padding: 2px 0px 2px 0px;
+}
+
+/*--------------------------------------------------------------
+# jump to
+--------------------------------------------------------------*/
+.tags h5 {
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.tags a {
+  color: #272829 !important ;
+}
+
+h5.jump {
+  background-color: #99db7f;
+}
+/*--------------------------------------------------------------
+# landing
+--------------------------------------------------------------*/
+#landing {
+  width: 100%;
+  height: 100vh;
+  background: url("../media/matrix.jpg") top center;
+  background-size: cover;
+}
+
+#landing:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#landing .landing-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+
+#landing h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#landing p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#landing p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 5px solid #99db7f;
+}
+
+@media (min-width: 1024px) {
+  #landing {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #landing h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #landing h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+/*--------------------------------------------------------------
+# general
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background: #f5f8fd;
+}
+
+.section-title {
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #272829;
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 5px;
+  background: #99db7f;
+  bottom: 0;
+  left: 0;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+.section-title .nw {
+  margin-top: 100px;
+}
