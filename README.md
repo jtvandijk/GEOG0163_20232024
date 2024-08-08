@@ -1,6 +1,6 @@
 # GEOG0163 Data, Politics and Society
 
-This GitHub repository contains the GEOG0163 Data, Politics and Society reading list for the 2023-2024 academic year which can be found at: https://jtvandijk.github.io/GEOG0163/
+This GitHub repository contains the GEOG0163 Data, Politics and Society reading list for the 2023-2024 academic year which can be found at: https://jtvandijk.github.io/GEOG0163_20232024/
 
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
